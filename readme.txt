@@ -1,5 +1,9 @@
 Windows 11 x86-64
 
+Java 24.0.1 
+Spring Boot v4.0.0-SNAPSHOT
+Tomcat 11.0.9
+
 winget install --id Amazon.Corretto.24.JDK
 
 java -version
