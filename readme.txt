@@ -15,6 +15,8 @@ Gradle 8.14.2
 
 gradle bootRun
 
+![](images\Screenshot 2025-07-08 145907.png)
+
 ---
 
 Ubuntu 24.04 x86-64
@@ -51,6 +53,8 @@ gradle --version
 Gradle 9.0.0-rc-1
 
 gradle bootRun
+
+![](images\Screenshot 2025-07-08 232434.png)
 
 ---
 
