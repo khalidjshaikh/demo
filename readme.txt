@@ -29,6 +29,10 @@ curl -s "https://get.sdkman.io" | bash
 source "/home/khalid/.sdkman/bin/sdkman-init.sh"
 sdk i gradle # gradle 9.0.0-rc-1
 
+sdk i java 24.0.1-amz
+java -version
+openjdk version "24.0.1" 2025-04-15
+
 sudo apt install gradle
 gradle --version
 Gradle 9.0.0-rc-1
@@ -47,10 +51,11 @@ sudo yum upgrade -y
 sudo yum install zip unzip -y
 
 curl -s "https://get.sdkman.io" | bash
-source "/home/khalid/.sdkman/bin/sdkman-init.sh"
+source "/home/ec2-user/.sdkman/bin/sdkman-init.sh"
 
 sdk i java 24.0.1-amz
 java -version
+openjdk version "24.0.1" 2025-04-15
 
 sdk i gradle 9.0.0-rc-1
 
@@ -65,25 +70,25 @@ gradle bootRun
 
 Ubuntu 24.10 (Oracular Oriole)
 
-java -version
-openjdk version "24.0.1" 2025-04-15
-
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install zip unzip -y
 
 curl -s "https://get.sdkman.io" | bash
-source "/home/khalid/.sdkman/bin/sdkman-init.sh"
+source "/root/.sdkman/bin/sdkman-init.sh"
 
 sdk i java 24.0.1-amz
 java -version
 
 sdk i gradle 9.0.0-rc-1
+openjdk version "24.0.1" 2025-04-15
 
 gradle --version
 Gradle 9.0.0-rc-1
 
 gradle bootRun
+
+![](images\Screenshot 2025-07-08 235603.png)
 
 ---
 
