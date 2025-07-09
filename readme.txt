@@ -1,5 +1,4 @@
 Windows 11 x86-64
-
 Java 24.0.1 
 Spring Boot v4.0.0-SNAPSHOT
 Tomcat 11.0.9
@@ -31,6 +30,7 @@ curl -s "https://get.sdkman.io" | bash
 source "/home/khalid/.sdkman/bin/sdkman-init.sh"
 sdk i gradle # gradle 9.0.0-rc-1
 
+sudo apt install gradle
 gradle --version
 Gradle 9.0.0-rc-1
 
@@ -63,15 +63,14 @@ spring-boot-starter-web includes an embedded Tomcat server, allowing you to run 
 ---
 
 gradle bootRun
+
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
   '  |____| .__|_| |_|_| |_\__, | / / / /
  =========|_|==============|___/=/_/_/_/
-
  :: Spring Boot ::       (v4.0.0-SNAPSHOT)
-
 2025-07-08T15:19:38.150-05:00  INFO 2984 --- [demo] [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 24.0.1 with PID 2984 (C:\Users\khale\git\gradle-groovy\demo\build\classes\java\main started by khale in C:\Users\khale\git\gradle-groovy\demo)
 2025-07-08T15:19:38.154-05:00  INFO 2984 --- [demo] [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
 2025-07-08T15:19:38.938-05:00  INFO 2984 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
