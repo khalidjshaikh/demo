@@ -23,10 +23,34 @@ Ubuntu 24.04 x86-64
 java -version
 openjdk version "21.0.7" 2025-04-15
 
-sudo apt install gradle
+# sudo apt install gradle
+# gradle --version
+# Gradle 4.4.1
+
+curl -s "https://get.sdkman.io" | bash
+source "/home/khalid/.sdkman/bin/sdkman-init.sh"
+sdk i gradle # gradle 9.0.0-rc-1
 
 gradle --version
-Gradle 4.4.1
+Gradle 9.0.0-rc-1
+
+gradle bootRun
+
+----
+
+Amazon Linux 2023.7.20250623
+
+java -version
+openjdk version "24.0.1" 2025-04-15
+
+curl -s "https://get.sdkman.io" | bash
+source "/home/khalid/.sdkman/bin/sdkman-init.sh"
+sdk i gradle # gradle 9.0.0-rc-1
+
+gradle --version
+Gradle 9.0.0-rc-1
+
+gradle bootRun
 
 ---
 
